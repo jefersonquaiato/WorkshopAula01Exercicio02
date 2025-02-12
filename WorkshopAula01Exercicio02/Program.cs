@@ -10,6 +10,6 @@ double altura  = Convert.ToDouble(Console.ReadLine());
 double imc = peso / (altura * altura);
 
 Console.WriteLine($"\nNome: {nomeCompleto}");
-Console.WriteLine($"Peso: {peso}");
-Console.WriteLine($"Altura: {altura}");
+Console.WriteLine($"Peso: {peso} kg");
+Console.WriteLine($"Altura: {altura} m");
 Console.WriteLine($"IMC: {imc:F2}");
